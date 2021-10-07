@@ -24,4 +24,15 @@ Then Login:
 `$ heroku login`
 
 Navigate to the working directory of the program. Within the directory a `runtime.txt.` should be present along with a `requirements.txt`. 
-Now, establish that working repository as a GIT and set the branch to the one that will be sent to Heroku with a `push`.
+Now, establish a git repo and set the branch to the one that will be sent to Heroku with a `push`.
+
+Create an app on Heroku that will recieve the source code. This is a randomly generated name (it can be set with a passed parameter). 
+
+`$ heroku create`
+
+Push the repo to heroku:
+
+`git push heroku main` 
+
+
+
